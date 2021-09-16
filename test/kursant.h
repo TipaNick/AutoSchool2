@@ -7,16 +7,14 @@ using namespace std;
 #pragma once
 struct kursant
 {
-public: 
 	string fio;
     int age;
     string email;
     string phone;
     string category;
-
-    void Create();
-    void Create(string fio_k, int age_k, string email_k, string phone_k, string cat_k);
 };
 
 
-
+struct kursant create();
+struct kursant create(string f, int a, string e, string p, string c);
+void view(kursant x);
