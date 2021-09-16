@@ -6,10 +6,12 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    //cout.width(100);
 
     kursant abc;
     abc.Create();
 
-    cout << abc.fio << "\n";
+    kursant abc2;
+    abc2.Create("Ваня", 23, "v@mail.ru", "+79456584", "Б");
+
+    cout << abc.fio << "\n" << abc2.fio;
 }
