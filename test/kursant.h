@@ -15,6 +15,6 @@ struct kursant
 };
 
 
-struct kursant create();
-struct kursant create(string f, int a, string e, string p, string c);
-void view(kursant x);
+struct kursant create_kursant();
+struct kursant create_kursant(string f, int a, string e, string p, string c);
+void view_kursant(kursant x);

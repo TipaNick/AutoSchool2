@@ -1,6 +1,6 @@
 #include "kursant.h"
 
-kursant create()
+kursant create_kursant()
 {
 	struct kursant temp;
 	temp.fio = "Ï.Ï.Ïğèìåğ";
@@ -11,7 +11,7 @@ kursant create()
 	return temp;
 }
 
-kursant create(string f, int a, string e, string p, string c)
+kursant create_kursant(string f, int a, string e, string p, string c)
 {
 	struct kursant temp;
 	temp.fio = f;
@@ -22,7 +22,7 @@ kursant create(string f, int a, string e, string p, string c)
 	return temp;
 }
 
-void view(kursant x)
+void view_kursant(kursant x)
 {
 	
 	cout << "|| ÔÈÎ: ";
@@ -45,5 +45,6 @@ void view(kursant x)
 	cout.width(2);
 	cout << x.category << " ||\n";
 }
+
 
 
