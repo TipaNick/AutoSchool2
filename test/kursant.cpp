@@ -2,7 +2,7 @@
 
 kursant create_kursant()
 {
-	struct kursant temp;
+	kursant temp;
 	temp.fio = "Ï.Ï.Ïğèìåğ";
 	temp.age = 18;
 	temp.email = "example@mail.ru";
@@ -13,7 +13,7 @@ kursant create_kursant()
 
 kursant create_kursant(string f, int a, string e, string p, string c)
 {
-	struct kursant temp;
+	kursant temp;
 	temp.fio = f;
 	temp.age = a;
 	temp.email = e;
@@ -25,7 +25,7 @@ kursant create_kursant(string f, int a, string e, string p, string c)
 void view_kursant(kursant x)
 {
 	
-	cout << "|| ÔÈÎ: ";
+	cout << "Êóğñàíò:\n|| ÔÈÎ: ";
 	cout.width(15); 
 	cout << x.fio;
 	cout.width(0);

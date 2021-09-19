@@ -24,7 +24,7 @@ instructor create_instructor(string f, int a, string e, string p, int exp)
 
 void view_instructor(instructor x)
 {
-	cout << "|| ÔÈÎ: ";
+	cout << "Èíñòðóêòîð:\n|| ÔÈÎ: ";
 	cout.width(15);
 	cout << x.fio;
 	cout.width(0);
