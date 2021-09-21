@@ -41,4 +41,6 @@ int main()
 
     view_record(zap1);
     view_record(zap2);
+
+    get_age_kursant(abc);
 }

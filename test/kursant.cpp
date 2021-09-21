@@ -46,5 +46,7 @@ void view_kursant(kursant x)
 	cout << x.category << " ||\n";
 }
 
-
-
+void get_age_kursant(kursant x)
+{
+	cout << "Возраст курсанта: " << x.fio << " равен: " << x.age << endl;
+}

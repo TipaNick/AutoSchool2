@@ -18,3 +18,4 @@ struct kursant
 struct kursant create_kursant();
 struct kursant create_kursant(string f, int a, string e, string p, string c);
 void view_kursant(kursant x);
+void get_age_kursant(kursant x);
