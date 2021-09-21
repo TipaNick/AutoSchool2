@@ -44,3 +44,8 @@ void view_instructor(instructor x)
 	cout.width(2);
 	cout << x.exp << " ||\n";
 }
+
+void hello_instructor(instructor x)
+{
+	cout << "Привет, меня зовут " << x.fio << endl;
+}

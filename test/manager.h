@@ -15,4 +15,4 @@ struct manager
 struct manager create_manager();
 struct manager create_manager(string f, int a, string p);
 void view_manager(manager x);
-
+void get_manager_phone(manager x);

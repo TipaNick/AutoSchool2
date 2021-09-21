@@ -17,4 +17,5 @@ struct instructor
 struct instructor create_instructor();
 struct instructor create_instructor(string f, int a, string e, string p, int exp);
 void view_instructor(instructor x);
+void hello_instructor(instructor x);
 

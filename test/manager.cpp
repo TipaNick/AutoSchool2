@@ -32,3 +32,8 @@ void view_manager(manager x)
     cout.width(11);
     cout << x.phone << " ||\n";
 }
+
+void get_manager_phone(manager x)
+{
+    cout << "Я " << x.fio << ". Мой телефон: " << x.phone << endl;
+}

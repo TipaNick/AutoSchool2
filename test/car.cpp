@@ -26,3 +26,8 @@ void view_car(car x)
     cout.width(11);
     cout << x.num << " ||\n";
 }
+
+void beep_beep(car x)
+{
+    cout << x.model << " делает Бип-Бип." << endl;
+}
