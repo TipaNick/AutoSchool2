@@ -13,8 +13,9 @@ struct record
 	car cr;
 };
 
-struct record create_record();
-struct record create_record(kursant k, instructor i, manager m, string t, car c);
+record create_record();
+record create_record(kursant k, instructor i, manager m, string t, car c);
 void view_record(record x);
 void get_record_time(record x);
+record vvod_record();
 

@@ -74,3 +74,15 @@ void get_record_time(record x)
 {
 	cout << "Время записи: " << x.time << endl;
 }
+
+record vvod_record()
+{
+	record temp;
+	temp.kurs = vvod_kursant();
+	temp.inst = vvod_instructor();
+	temp.manag = vvod_manager();
+	temp.cr = vvod_car();
+	cout << "Введите время записи: ";
+	cin >> temp.time;
+	return temp;
+}
