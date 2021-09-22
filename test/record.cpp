@@ -69,3 +69,8 @@ void view_record(record x)
 	cout.width(15);
 	cout << x.manag.fio << " ||\n";
 }
+
+void get_record_time(record x)
+{
+	cout << "Время записи: " << x.time << endl;
+}

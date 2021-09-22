@@ -14,4 +14,5 @@ struct car
 car create_car();
 car create_car(string m, string n);
 void view_car(car x);
+void beep_beep(car x);
 car vvod_car();

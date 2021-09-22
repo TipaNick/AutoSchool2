@@ -46,6 +46,14 @@ int main()
 
     get_age_kursant(abc);
 
+    hello_instructor(abc_ins2);
+
+    get_manager_phone(abc_mag2);
+
+    get_record_time(zap2);
+
+    beep_beep(abc_car2);
+
     abc = vvod_kursant();
 
     view_kursant(abc);

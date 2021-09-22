@@ -61,3 +61,8 @@ instructor vvod_instructor()
 	return temp;
 
 }
+
+void hello_instructor(instructor x)
+{
+	cout << "Привет, меня зовут " << x.fio << endl;
+}

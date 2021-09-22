@@ -15,4 +15,5 @@ struct manager
 manager create_manager();
 manager create_manager(string f, int a, string p);
 void view_manager(manager x);
+void get_manager_phone(manager x);
 manager vvod_manager();

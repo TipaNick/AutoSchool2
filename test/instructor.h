@@ -18,3 +18,5 @@ instructor create_instructor();
 instructor create_instructor(string f, int a, string e, string p, int exp);
 void view_instructor(instructor x);
 instructor vvod_instructor();
+void hello_instructor(instructor x);
+

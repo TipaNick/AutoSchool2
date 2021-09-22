@@ -33,6 +33,11 @@ void view_manager(manager x)
     cout << x.phone << " ||\n";
 }
 
+void get_manager_phone(manager x)
+{
+    cout << "Я " << x.fio << ". Мой телефон: " << x.phone << endl;
+}
+
 manager vvod_manager()
 {
     manager temp;
