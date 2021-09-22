@@ -26,3 +26,13 @@ void view_car(car x)
     cout.width(11);
     cout << x.num << " ||\n";
 }
+
+car vvod_car()
+{
+    car temp;
+    cout << "¬ведите модель: ";
+    cin >> temp.model;
+    cout << "¬ведите номер: ";
+    cin >> temp.num;
+    return temp;
+}

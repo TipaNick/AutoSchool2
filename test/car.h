@@ -11,6 +11,7 @@ struct car
 	string num;
 };
 
-struct car create_car();
-struct car create_car(string m, string n);
+car create_car();
+car create_car(string m, string n);
 void view_car(car x);
+car vvod_car();

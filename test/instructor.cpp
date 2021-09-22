@@ -44,3 +44,20 @@ void view_instructor(instructor x)
 	cout.width(2);
 	cout << x.exp << " ||\n";
 }
+
+instructor vvod_instructor()
+{
+	instructor temp;
+	cout << "Введите ФИО: ";
+	cin >> temp.fio;
+	cout << "Введите возраст: ";
+	cin >> temp.age;
+	cout << "Введите почту: ";
+	cin >> temp.email;
+	cout << "Введите телефон: ";
+	cin >> temp.phone;
+	cout << "Введите стаж: ";
+	cin >> temp.exp;
+	return temp;
+
+}

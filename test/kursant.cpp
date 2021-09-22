@@ -50,3 +50,19 @@ void get_age_kursant(kursant x)
 {
 	cout << "Возраст курсанта: " << x.fio << " равен: " << x.age << endl;
 }
+
+kursant vvod_kursant()
+{
+	kursant temp;
+	cout << "Введите ФИО: ";
+	cin >> temp.fio;
+	cout << "Введите возраст: ";
+	cin >> temp.age;
+	cout << "Введите почту: ";
+	cin >> temp.email;
+	cout << "Введите телефон: ";
+	cin >> temp.phone;
+	cout << "Введите категорию: ";
+	cin >> temp.category;
+	return temp;
+}

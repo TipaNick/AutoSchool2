@@ -4,13 +4,15 @@
 #include "car.h"
 #include "manager.h"
 #include "record.h"
+#include <Windows.h>
 
 using namespace std;
 
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    SetConsoleCP(1251);// установка кодовой страницы win-cp 1251 в поток ввода
+    SetConsoleOutputCP(1251);
 
     kursant abc = create_kursant();
     kursant abc2 = create_kursant("Вова", 23, "v@mail.ru", "+79456545152", "Б");
@@ -43,4 +45,8 @@ int main()
     view_record(zap2);
 
     get_age_kursant(abc);
+
+    abc = vvod_kursant();
+
+    view_kursant(abc);
 }

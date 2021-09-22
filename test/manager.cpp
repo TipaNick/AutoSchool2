@@ -32,3 +32,15 @@ void view_manager(manager x)
     cout.width(11);
     cout << x.phone << " ||\n";
 }
+
+manager vvod_manager()
+{
+    manager temp;
+    cout << "Введите ФИО: ";
+    cin >> temp.fio;
+    cout << "Введите возраст: ";
+    cin >> temp.age;
+    cout << "Введите телефон: ";
+    cin >> temp.phone;
+    return temp;
+}

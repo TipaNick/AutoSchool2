@@ -12,7 +12,7 @@ struct manager
 	string phone;
 };
 
-struct manager create_manager();
-struct manager create_manager(string f, int a, string p);
+manager create_manager();
+manager create_manager(string f, int a, string p);
 void view_manager(manager x);
-
+manager vvod_manager();
